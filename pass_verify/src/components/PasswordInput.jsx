@@ -12,8 +12,9 @@ const PasswordInput = () => {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
       <h1>Vérificateur de mot de passe</h1>
+      <h2>SOYONS VIGILANTS 🖖🏿🖖🏿🖖🏿🕕🕕      </h2>
       <input
-        type="password"
+        type="text"
         value={password}
         onChange={handleChange}
         placeholder="Entrez un mot de passe"
